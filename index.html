@@ -1,13 +1,15 @@
- <html>
-  <head>
+<html>
+  <head>  
     <script>
-    function show Meldung(){
-      //hier die Div id=meldung "füllen"
-      document.getElementById("meldung").innerHTML="Dies ist eine Meldung";
+      function showMeldung() {
+         //Hier die Div id=meldung füllen
+         document.getElementById("meldung").innerHTML="Dies ist eine Meldung";
       }
-      </script>
-    </head>
-    <body onClick="showMeldung">
-   <div id="meldung"></div>
-   </body>
- </html>
+    </script>
+	<link rel="stylesheet" type=text/css" href="style.css">
+  </head>
+  <body onClick="showMeldung()">
+  <h1>Dies ist ein Klick-Test</h1>
+  <div id="meldung"></div>
+  </body>
+</html>
